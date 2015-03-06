@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch=".." name="aosp"/>
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-5.0.2_r1" />
+           
   <remote fetch="git://git.ti.com/" name="git-ti-mirror"/>
   <remote fetch="git://android.git.linaro.org/" name="linaro-android" review="review.android.git.linaro.org"/>
   <remote fetch="git://git.linaro.org/" name="linaro-other"/>
