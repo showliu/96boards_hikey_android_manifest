@@ -4,7 +4,7 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-5.0.2_r1" />
-           
+
   <remote fetch="git://git.ti.com/" name="git-ti-mirror"/>
   <remote fetch="git://android.git.linaro.org/" name="linaro-android" review="review.android.git.linaro.org"/>
   <remote fetch="git://git.linaro.org/" name="linaro-other"/>
@@ -21,8 +21,8 @@
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" revision="android-5.0" remote="github" groups="device,hikey" />
 
   <project groups="ti" name="android-sdk/libdrm" path="external/libdrm" remote="git-ti-mirror" revision="e4013228673a26ff7043972f6c5a053c02663b71" upstream="master"/>
-  <project groups="non-default,juno" name="android/device/linaro/juno" path="device/linaro/juno" remote="linaro-android" revision="4086497a2fb2a396e3e072c5c613bb7b574eff25" upstream="linaro-lollipop"/>
-  <project groups="non-default,juno" name="arm/vexpress-firmware" path="vexpress-firmware" remote="linaro-other" revision="5df1188de898f9eb44b9d8ed45408e6fe95fc8ba" upstream="juno-recovery-tarball"/>
+  <!--<project groups="non-default,juno" name="android/device/linaro/juno" path="device/linaro/juno" remote="linaro-android" revision="4086497a2fb2a396e3e072c5c613bb7b574eff25" upstream="linaro-lollipop"/>
+  <project groups="non-default,juno" name="arm/vexpress-firmware" path="vexpress-firmware" remote="linaro-other" revision="5df1188de898f9eb44b9d8ed45408e6fe95fc8ba" upstream="juno-recovery-tarball"/>-->
   <project groups="pdk-cw-fs" name="device/common" revision="b143878e855aff96d089c26e99f02879062bdc1b" upstream="refs/tags/android-5.0.2_r1"/>
   <project groups="pdk" name="device/generic/arm64" revision="39249053f37b7f9633eb406af3dbedfea7bf8b3e" upstream="refs/tags/android-5.0.2_r1"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" revision="2a96372d80c693fc28b29328b3e86b65cab9189b" upstream="refs/tags/android-5.0.2_r1"/>
@@ -39,7 +39,7 @@
   <project groups="pdk" name="device/generic/x86_64" revision="138339be1da9b0f34befe3751b0bae874d7253db" upstream="refs/tags/android-5.0.2_r1"/>
   <project name="device/linaro/common" path="device/linaro/build" remote="linaro-android" revision="fe8e4cded97ab2eed5119a16c41b1646d0cdb8ad" upstream="linaro-lollipop-experimental"/>
   <project groups="pdk" name="device/sample" revision="306007899989aa46222e8b1f9fc9c22f0a487f51" upstream="refs/tags/android-5.0.2_r1"/>
-  <project groups="non-default,juno,fvp-armv8" name="kernel/juno" path="kernel/linaro/armv8" remote="linaro-android" revision="922ca35301c4b2ba76b8f6bb54dd5ae8d1b24788" upstream="linaro-armv8"/>
+  <!--<project groups="non-default,juno,fvp-armv8" name="kernel/juno" path="kernel/linaro/armv8" remote="linaro-android" revision="922ca35301c4b2ba76b8f6bb54dd5ae8d1b24788" upstream="linaro-armv8"/>-->
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" upstream="refs/tags/android-5.0.2_r1"/>
   <project groups="pdk" name="platform/art" path="art" revision="73b774ed015630a7e3f4699351744c572e2fbfc8" upstream="refs/tags/android-5.0.2_r1"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="944e192df6757bd8b7a87ce60e9db605f73f50eb" upstream="refs/tags/android-5.0.2_r1"/>
