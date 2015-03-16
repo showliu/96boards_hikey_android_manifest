@@ -199,8 +199,8 @@
   <project groups="pdk" name="platform/external/libvpx" path="external/libvpx" revision="04839626ed859623901ebd3a5fd483982186b59d" upstream="refs/tags/android-5.0.2_r1"/>
   <project groups="pdk-cw-fs" name="platform/external/libxml2" path="external/libxml2" revision="c74d5ba601aafaa6ce59a6a55a77656f069389f9" upstream="refs/tags/android-5.0.2_r1"/>
   <project groups="libyuv,pdk-cw-fs" name="platform/external/libyuv" path="external/libyuv" revision="482a582884351288fb701532359652970b1ba7c0" upstream="refs/tags/android-5.0.2_r1"/>
-  <project name="platform/external/linaro-android-kernel-test" path="external/linaro-android-kernel-test" remote="linaro-android" revision="c306d1614be81a2b9cd30fe26cc5bac44d11a754" upstream="linaro-juice-master-20140514"/>
-  <project name="platform/external/linaro-android-userspace-test" path="external/linaro-android-userspace-test" remote="linaro-android" revision="2091302adc5a74509f30ba6d1a69bdf6f9f3a6d6" upstream="master"/>
+  <!--<project name="platform/external/linaro-android-kernel-test" path="external/linaro-android-kernel-test" remote="linaro-android" revision="c306d1614be81a2b9cd30fe26cc5bac44d11a754" upstream="linaro-juice-master-20140514"/>
+  <project name="platform/external/linaro-android-userspace-test" path="external/linaro-android-userspace-test" remote="linaro-android" revision="2091302adc5a74509f30ba6d1a69bdf6f9f3a6d6" upstream="master"/>-->
   <project groups="pdk-cw-fs" name="platform/external/linux-tools-perf" path="external/linux-tools-perf" revision="20f6b4bde1e6b6c7518a1ad23e07a44027ba1a88" upstream="refs/tags/android-5.0.2_r1"/>
   <project groups="pdk-cw-fs" name="platform/external/littlemock" path="external/littlemock" revision="a3ea6bf9e6fcf63b69f5635b2ecc1fbd9a9a4dfc" upstream="refs/tags/android-5.0.2_r1"/>
   <project groups="pdk-cw-fs" name="platform/external/lldb" path="external/lldb" revision="8aaa52329ade20107fe28af7085b0a1f395816a8" upstream="refs/tags/android-5.0.2_r1"/>
